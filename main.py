@@ -81,7 +81,7 @@ def scan(page_width, page_length):
                 line = scanline(page_width)
                 lines.append(line)
 
-                stepper.Stepper.goAngle(50)
+                stepper.Stepper.goAngle(45)
 
         return lines
 
