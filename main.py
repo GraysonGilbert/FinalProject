@@ -49,7 +49,7 @@ def scanline(page_width):
 
         line = []
 
-        stepsize = 0.1
+        stepsize = 0.15
         scansteps = int(3.14/page_width*2/stepsize)
 
         led.on()
@@ -81,7 +81,7 @@ def scan(page_width, page_length):
                 line = scanline(page_width)
                 lines.append(line)
 
-                stepper.Stepper.goAngle(90)
+                stepper.Stepper.goAngle(20)
 
         return lines
 
