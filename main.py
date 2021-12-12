@@ -98,7 +98,7 @@ def image_conversion(lines):
 
 def main():
 
-        page_width = 2.3
+        page_width = 2
         page_length = 5
 
 
