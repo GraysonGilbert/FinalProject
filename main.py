@@ -98,8 +98,8 @@ def image_conversion(lines):
 
 def main():
 
-        page_width = 3
-        page_length = 2
+        page_width = 2.3
+        page_length = 5
 
 
         lines = scan(page_width, page_length)
