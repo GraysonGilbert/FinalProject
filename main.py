@@ -49,7 +49,7 @@ def scanline(page_width):
 
         line = []
 
-        stepsize = 0.2
+        stepsize = 0.1
         scansteps = int(3.14/page_width*2/stepsize)
 
         led.on()
