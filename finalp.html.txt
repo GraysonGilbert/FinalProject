@@ -1,0 +1,14 @@
+<html>
+<br><br>
+<h1>Welcome to your personal scanner!<br></h1>
+<h2>Latest Scan:<br></h2>
+<img src='download.jpeg'>
+<h2>Input your page size:<br></h2>
+<body style='background-color:powderblue;text-align:center'>
+<form action="/cgi-bin/finalp.cgi" method="POST">
+    Width (in.): &nbsp<input type="text" name="width"><br>
+    Length (in.): <input type="text" name="length"><br><br>
+    <input type="submit" value="Scan"/>
+    </form>
+</body>
+</html>
